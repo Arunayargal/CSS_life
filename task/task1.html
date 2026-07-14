@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .de p{
+            background-color: blue;
+        }
+    </style>
+
+   
+</head>
+<body>
+    <hr> <h3> Descendant Combinator </h3> </hr>
+    <div class="de">
+        <p> Child </p>
+        <p> Child </p>
+        <ul><li> <p type="disc"> Descendant</p> </li></ul>
+    </div>
+    
+
+    <hr> <h3> Child combinator</h3> </hr>
+    <div class="de">
+        <p> child </p>
+        <p> child </p>
+    </div>
+    <ul><li><p>Descendant</p></li> </ul>
+
+    <div class="de">
+    <hr> <h3> Adjacent sibling combinator </h3></hr>
+        <p> 1st siblingafter heading </p>
+    </div>
+        <p> 2nd sibling after heading</p>
+
+
+    <hr> <h3> General sibling combinator </h3></hr>
+    <div class="de">
+        <p> 1st siblingafter heading </p>
+        <p> 2nd sibling after heading</p>
+    </div>
+
+</body>
+</html>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 900px;
+            height: 520px;
+            border: 2px solid black;
+            padding-top: 10px;
+            position: relative;
+        }
+
+        .main1{
+            width: 896px;
+            height: 300px;
+            border: 2px solid black;
+            background-color: orange;
+            position: absolute;
+            border-color: orange;
+        }
+        .main2{
+            width: 150px;
+            height: 200px;
+            border: 2px solid brown;
+            position:absolute;
+            background-color: white;
+            background-position: 100px;
+            border-radius: 5%;
+            left: 30px;
+            border-width: 5px;
+            top: 250px;
+        }
+
+        #text{
+            width: 200px;
+            height: 40px;
+            border: 1px solid white;
+            top: 370px;
+            left: 200px;
+            font-size:xx-large;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #img{
+            width: 150px;
+            height: 200px;
+        }
+        #im{
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 100px;
+            left: 400px;
+            border-radius: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> 
+        <div class="main1" id="out">
+            <img id="im" src="https://www.citypng.com/public/uploads/preview/hd-camera-orange-icon-png-7017516950335973hxmnvxspa.png" alt="">
+        </div>
+        <div class="main2" id="pic">
+            <img id="img" src="https://cdn-icons-png.flaticon.com/512/16794/16794610.png" alt="">
+        </div>
+        <div class="main" id="text"> Store Name </div>
+    </div>
+</body>
+</html>

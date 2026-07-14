@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            background-color: red;
+            font-size: 100px;
+            color: blue;
+        }
+        p::first-line{
+            color: hotpink;
+        }
+        p::before{
+            content:"who r u ";
+            font-size: 50px;
+        }
+        p::after{
+            content: "whr r u??";
+            font-size: 50px;
+        }
+        ul li::marker{
+            content:"👍" ;
+            font-size: 30px;  
+        }
+        input::placeholder{
+            color:red;
+            border: 10px;
+            padding:1px 10px;
+        } 
+        p::selection{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desktop</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi repellendus perspiciatis, maxime dignissimos quo perferendis, magni at molestias sed corporis dolorem esse voluptates vel ipsum corrupti repudiandae et enim error iure adipisci, aliquid in nam porro illo? Necessitatibus, accusantium! Nam animi quibusdam praesentium cumque quos, quaerat rerum laborum dolorum magnam corrupti amet, ipsa tempora rem magni sapiente dolore obcaecati ducimus illo, id eligendi. Earum ab quia voluptas quam architecto ipsa quasi, molestias eligendi aut unde, veritatis facere? Ipsum officiis a quibusdam natus veniam repellat optio voluptatem itaque tempore odit, voluptatum alias eveniet facilis porro hic in corrupti placeat voluptate dignissimos?</p>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+    </ul>
+
+    <form action="">
+        <label for=""> name: </label>
+        <input type="text" placeholder="Enter your name">
+    </form>
+</body>
+</html>
