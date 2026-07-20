@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 600px;
+            height: 100px;
+            border: 3px solid;
+            background-color: rgb(174, 123, 222);
+            border-radius: 8%;
+            display: flex;
+        }
+        .box{
+            width: 100px;
+            height: 80px;
+            border: 1px solid;
+            gap: 10px;
+            /* justify-content: space-around; */
+            background-color: rgb(255, 162, 0);
+            border-radius: 9%;
+            margin: 10px;
+        }
+
+        #b2{
+            width: 80px;
+        }
+
+        #b1,#b3{
+            width: 120px;
+        }
+        p{
+            font-size: 25px;
+        }
+
+        .main1{
+            width: 600px;
+            height: 250px;
+            border: 3px solid;
+            background-color: rgb(174, 123, 222);
+            border-radius: 8%;
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 30px;
+            /* padding-top: 15px; */
+        }
+
+        .box1{
+            width: 100px;
+            height: 80px;
+            border: 1px solid;
+            gap: 30px;
+            /* justify-content: space-between; */
+            background-color: rgb(255, 162, 0);
+            border-radius: 9%;
+            margin: 10px;
+            display: flex;
+        }
+        .box2{
+            width: 100px;
+            height: 80px;
+            border: 1px solid;
+            gap: 30px;
+            /* justify-content: space-around; */
+            background-color: rgb(255, 162, 0);
+            border-radius: 9%;
+            margin: 10px;
+            display: flex;
+        }
+
+        #b1{
+            width: 150px;
+        }
+
+        #b3{
+            width: 150px;
+        }
+
+        .main2{
+            width: 600px;
+            height: 200px;
+            border: 3px solid;
+            background-color: rgb(174, 123, 222);
+            border-radius: 8%;
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px 30px;
+            /* padding-top: 15px; */
+        }
+        .box3{
+            width: 100px;
+            height: 70px;
+            border: 1px solid;
+            background-color: rgb(255, 162, 0);
+            border-radius: 9%;
+            margin: 10px;
+            display: flex;
+        }
+        .box4{
+            width: 100px;
+            height: 70px;
+            border: 1px solid;
+            background-color: rgb(255, 162, 0);
+            border-radius: 9%;
+            margin: 10px;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <p> gap: 10px</p>
+    <div class="main">
+        <div class="box" id="b1"></div>
+        <div class="box" id="b2"></div>
+        <div class="box" id="b3"></div>
+    </div>
+
+    <p>gap: 30px</p>
+    <div class="main1">
+        <div class="box1" id="b1"></div>
+        <div class="box1" id="b2"></div>
+        <div class="box1" id="b3"></div> 
+        <div class="box2" id="b1"></div>
+        <div class="box2" id="b2"></div>
+        <div class="box2" id="b3"></div>
+    </div>
+
+    <p>gap: 10px 30px</p>
+    <div class="main2">
+        <div class="box3" id="b1"></div>
+        <div class="box3" id="b2"></div>
+        <div class="box3" id="b3"></div> 
+        <div class="box4" id="b1"></div>
+        <div class="box4" id="b2"></div>
+        <div class="box4" id="b3"></div>
+    </div>
+</body>
+</html>
