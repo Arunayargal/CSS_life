@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 800px;
+            height: 600px;
+            border: 2px white dotted;
+        }
+        .child{
+            width: 150px ;
+            height: 150px;
+            background-color: yellow;
+            border: 2px solid;
+            /* transform: translateX(300px);      translateX is overridden by translateY bcz again we r using transform only */
+            /* transform: translateY(300px); */
+            /*translate: 500px 300px;*/                 /* translate: X Y; */
+
+            /* transform: rotate(45deg); */
+            /* transform: rotate(180deg);
+            transform: rotateX(45deg);
+            transform: rotateY(55deg); */
+
+            /* transform: scaleX(2);
+            transform: scaleY(2);
+            transform: scale(5,1);
+            transform: scaleZ(2); */                 /* it translate: z will not work */
+
+            /* transform: skewX(45deg);
+            transform: skewY(45deg);
+            transform: skew(45deg,35deg); */
+
+            transform: translate(200px, 200px) rotate(45deg) ;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child"> box</div>
+    </div>
+</body>
+</html>
