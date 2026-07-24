@@ -8,7 +8,6 @@
         *{
             margin: 0;
             padding: 0;
-            background-color: black;
             box-sizing: border-box;
         }
         html,body{
@@ -18,80 +17,87 @@
             justify-content: center;
             align-items: center;
         }
+        .child{
+            width: 150px ;
+            height: 150px;
+            background-color: yellow;
+            border: 1px solid;
+            box-shadow: 5px 5px 20px 10px rgb(204, 201, 201);
+        }
         .container{
             width: 800px;
-            height: 700px;
-            border: 2px white dotted;
+            height: 650px;
+            border: 8px black double;
         }
-        #box1 img{
+        #box1 {
             width: 100px ;
             height: 100px;
             background-color: yellow;
-            border: 2px solid;
+            border: 1px solid;
             transform: translate(350px, 300px) rotate(45deg) ;
             /* box-shadow: ; */
         }
 
-        #box2 img{
-           width: 200px ;
+        #box2 {
+           width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
-            transform: translate(450px,100px);
+            transform: translate(500px,100px) scaleX(2);
         }
-        #box3 img{
-           width: 200px ;
+        #box3 {
+           width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
-            transform: translateX(150px);
+            transform: translateX(200px) scaleX(2);
         }
-        #box4 img{
-           width: 200px ;
+        #box4 {
+           width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
-            transform: translate(150px,100px);
+            transform: translate(200px,100px) scaleX(2);
         }
-        #box5 img{
-           width: 200px ;
+        #box5 {
+           width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
-            transform: translateX(450px);
+            transform: translateX(500px) scaleX(2);
         }
-        #box6 img{
+        #box6 {
            width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
             transform: translateX(650px);
         }
-        #box7 img{
+        #box7 {
            width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
             transform: translate(50px,-100px);
         }
-        #box8 img{
+        #box8 {
            width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
             transform: translate(50px,-600px);
         }
-        #box9 img{
+        #box9 {
            width: 100px ;
             height: 100px;
             background-color: yellow;
             border: 2px solid;
             transform: translate(650px,-700px);
         }
-        /* img{
+        img{
             height: 100px;
             width: 100px;
-        } */
+        }
     </style>
 </head>
 <body>
@@ -124,7 +130,6 @@
         <div class="child" id="box9">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpDoIbPb3NN6WCJlvL6n2viHcscQ32NaYP7cme6h484t6cJNW6GQRmQ&s=10" alt="">
         </div>
-        <!-- <div class="child" id="box10">10</div> -->
     </div>
 </body>
 </html>
