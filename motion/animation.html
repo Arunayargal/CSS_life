@@ -24,24 +24,34 @@
             border: 5px  double;
         }
         .child {
-            width: 150px ;
-            height: 150px;
+            width: 100px ;
+            height: 100px;
             background-color: yellow;
             border: 2px solid;
             animation-name: aruna;
-            animation-duration: 6s;
-            /* border-radius: 50%; */
+            animation-duration: 3s;
+            border-radius: 50%;
+            /* animation-delay: 2s; */
+            /* animation-timing-function: ease-in-out; */
+            animation-iteration-count: infinite;
+            /* animation-play-state: running; */
+            /* animation-d irection: alternate; */
         }
 
         @keyframes aruna {
-            from {
-                transform: translate(0px, 0px );
+            0% {
+                transform: translate(0px, 0px) rotate(0deg);
             }
-            to{
-                transform: translate(700px, 0px);
+            25%{
+                transform: translate(700px,0px) rotate(450deg);
+            }
+            50%{
+                transform: translate(700px,500px) rotate(180deg);
+            }
+            75%{
+                transform: translate(0px,500px) rotate(360deg);
             }
         }
-        
     </style>
 </head>
 <body>
